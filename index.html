@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto Final Integrador - Armado de CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+        <!-- BARRA DE NAVEGACION Y LOGO  -->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand" href="#">
+                        LOGO
+                    </a>
+                    <ul class="navbar-nav  d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <button id="switch" class="switch">
+                            <span>
+                                <i class="fa-solid fa-moon"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-sun"></i>
+                            </span>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://previews.123rf.com/images/yupiramos/yupiramos1609/yupiramos160912729/62358452-avatar-hombre-sonriente-de-dibujos-animados-persona-de-sexo-masculino-de-usuario-ilustraci%C3%B3n-vectori.jpg" alt="Imagen de LBA Perfil">
+            </div>
+            <h1>Luis Arnal</h1>
+            <h2>Front-End Developer</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI  -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="contenido-seccion">
+            <div class="titulo">
+            <h2>sobre mi</h2>
+            <p><span>Hola !, soy Luis Arnal.</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat beatae reprehenderit error, molestiae ex impedit sed aperiam fuga deserunt, ipsa excepturi? Quasi similique sit, deleniti possimus veritatis necessitatibus quaerat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat beatae reprehenderit error, molestiae ex impedit sed aperiam fuga deserunt, ipsa excepturi? Quasi similique sit, deleniti possimus veritatis necessitatibus quaerat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat beatae reprehenderit error, molestiae ex impedit sed aperiam fuga deserunt, ipsa excepturi? Quasi similique sit, deleniti possimus veritatis necessitatibus quaerat.</p>
+            </div>
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            01-09-1995
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            221 155054582
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ejemplo@ejemplo.gmail.com
+                        </li>
+                        <li>
+                            <strong>Sitio Web</strong>
+                            www.ejemplo.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            148 N° 1030, Arturo Segui - La Plata, Buenos Aires.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Freelance Desarrollador Front-End.
+                        </li>
+                    </ul>
+                </div>
+                <!-- INERESES -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos.</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica.</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Futbol</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>Bicicleta</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Pasear</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Desarrollar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="boton">
+                Descargar CV<i class="fa-solid fa-circle-down"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Habilidades Técnicas -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="habilidad">
+                        <span>JavaScript</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso javascript">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>HTML</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso html">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>CSS</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso css">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>BOOSTRAP</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso boostrap">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HABILIDADES PROFESIONALES -->
+                <div class="col">
+                    <h3>Habilidad Profesional</h3>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso comunicacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso trabajo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso creatividad">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dedidacion</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso dedicacion">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- C O N T A C T O -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2>Contactar</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Número de Telefono">
+                    <input type="text" placeholder="Direccion de correo electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="JavaScript/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>te
+</body>
+</html>
